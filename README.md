@@ -10,6 +10,8 @@
 
 <p align="center"><img alt="Demo" width="500" src="./readme-assets/demo-new.png" /><p>
 
+This app uses [deno_webview](https://github.com/siokas/denomander) and [denomander](https://github.com/siokas/denomander).
+
 ## 🌏 Options
 To open a website as a window, run 
 
