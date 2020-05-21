@@ -1,10 +1,13 @@
-# Web Window
-> Open a website as a standalone window with Deno
-
-![Made with Deno](https://img.shields.io/badge/Made%20With-Deno-black?style=flat-square&)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
 <p align="center">
+
+  # Web Window
+  Open a website as a standalone window with Deno
+
+  ![Made with Deno](https://img.shields.io/badge/Made%20With-Deno-black?style=flat-square&)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+  ![lic](https://img.shields.io/github/license/ninest/web-window?style=flat-square)
+
+
   <img alt="Demo" width="500" src="./readme-assets/demo-new.png" />
 <p>
 
@@ -41,4 +44,4 @@ deno run -A --unstable index.ts open https://github.com/ninest
 
 ## 😱 Issues and limitations
 - Non-resiable windows cannot be put into fullscreen
-- `WebView.setColor` doesn't seem to work on Mac OS
+- `WebView.setColor` doesn't seem to work on Mac OS. When this is fixed, `--color` can be added
