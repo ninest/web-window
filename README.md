@@ -41,3 +41,4 @@ deno run -A --unstable index.ts open https://github.com/ninest
 
 ## 😱 Issues and limitations
 - Non-resiable windows cannot be put into fullscreen
+- `WebView.setColor` doesn't seem to work on Mac OS
