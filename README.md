@@ -1,4 +1,4 @@
-<h1 align="center">Web Window</h1>
+<h1 align="center">🕸 Web Window</h1>
 <p align="center">Open a website as a standalone window with Deno
 
 
@@ -34,6 +34,11 @@ deno run -A --unstable https://raw.githubusercontent.com/ninest/web-window/maste
 deno run -A --unstable https://raw.githubusercontent.com/ninest/web-window/master/index.ts open http://youtube.com/ --fullscreen
 ```
 (no need to download anything to run these examples)
+
+To see a list of all options/commands, run 
+```
+deno run -A --unstable https://raw.githubusercontent.com/ninest/web-window/master/index.ts --help
+```
 
 ## 🛠 Build setup
 Clone or fork the repository, then run 

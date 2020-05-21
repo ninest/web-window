@@ -10,7 +10,7 @@ const app = new Denomander({
 app
   .command('open [url]')
   .option('-f --fullscreen', 'Open the window in fullscreen')
-  .option('-t --title', 'The window\'s title, shown in the toolbar')
+  .option('-t --title', 'set the window title, shown in the toolbar')
   .option('-r --resizable', 'Whether the window should be resizable')
   .description('Open a website as a window')
   .action(async (url: string) => {
@@ -24,6 +24,7 @@ app
     })
     view.setFullscreen(app.fullscreen || false);
 
+    // color does not seem to work on Mac OS
     // view.setColor({r: 255, g: 10, b: 10});
 
     await Promise.all([view.run()]);
