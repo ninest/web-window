@@ -1,15 +1,14 @@
+<h1 align="center">Web Window</h1>
+<p align="center">Open a website as a standalone window with Deno
+
+
 <p align="center">
+  <img src="https://img.shields.io/badge/Made%20With-Deno-black?style=flat-square&" alt="Made with Deno" />
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="Make a PR" />
+  <img src="https://img.shields.io/github/license/ninest/web-window?style=flat-square" alt="MIT" />
+</p>
 
-  # Web Window
-  Open a website as a standalone window with Deno
-
-  ![Made with Deno](https://img.shields.io/badge/Made%20With-Deno-black?style=flat-square&)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-  ![lic](https://img.shields.io/github/license/ninest/web-window?style=flat-square)
-
-
-  <img alt="Demo" width="500" src="./readme-assets/demo-new.png" />
-<p>
+<p align="center"><img alt="Demo" width="500" src="./readme-assets/demo-new.png" /><p>
 
 ## 🌏 Options
 To open a website as a window, run 
