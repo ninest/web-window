@@ -4,9 +4,9 @@
 ![Made with Deno](https://img.shields.io/badge/Made%20With-Deno-black?style=flat-square&)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-
-![Demo]()
-<img alt="Demo" width="500" src="./readme-assets/demo.png" />
+<p align="center">
+  <img alt="Demo" width="500" src="./readme-assets/demo-new.png" />
+<p>
 
 ## 🌏 Options
 To open a website as a window, run 
@@ -21,6 +21,7 @@ There are a few more options:
 - `--title <string>`: Set the window's title, to show in the toolbar
 - `--resizable <bool>`: Whether the window should be resizable (defaults to true)
 
+`-f`, `-t <string>`, and `-r <bool>` can also be used.
 
 ### Examples
 ```
