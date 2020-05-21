@@ -12,6 +12,11 @@
 
 This app uses [deno_webview](https://github.com/eliassjogreen/deno_webview) and [denomander](https://github.com/siokas/denomander).
 
+## 🚀 Features
+- [x] Open a website (and specify title, resizable, and fullscreen)
+- [ ] Set toolbar color
+- [ ] Install "executable", so website can be opened as an app without using command-line
+
 ## 🌏 Options
 To open a website as a window, run 
 
