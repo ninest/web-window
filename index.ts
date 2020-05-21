@@ -22,7 +22,6 @@ app
       resizable: app.resizable === 'false' ? false : true,
       debug: false,
     })
-    console.log(app.fullscreen);
     view.setFullscreen(app.fullscreen || false);
 
     // view.setColor({r: 255, g: 10, b: 10});

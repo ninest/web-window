@@ -33,3 +33,6 @@ Clone or fork the repository, then run
 ```
 deno run -A --unstable index.ts open https://github.com/ninest
 ```
+
+## 😱 Issues and limitations
+- Non-resiable windows cannot be put into fullscreen
