@@ -11,18 +11,18 @@ app
   .command('open [url]')
   .option('-f --fullscreen', 'Open the window in fullscreen')
   .option('-t --title', 'The window\'s title, shown in the toolbar')
-  .option('-w --width', 'The window\'s width')
-  .option('-h --height', 'The window\'s height')
+  .option('-r --resizable', 'Whether the window should be resizable')
   .description('Open a website as a window')
   .action(async (url: string) => {
     const view = new WebView({
       title: app.title || '',
       url: url || 'https://github.com/ninest/',
-      width: parseInt(app.width) || 900,
-      height: parseInt(app.height) || 600,
-      resizable: true,
+      width: 900,
+      height: 600,
+      resizable: app.resizable === 'false' ? false : true,
       debug: false,
     })
+    console.log(app.fullscreen);
     view.setFullscreen(app.fullscreen || false);
 
     // view.setColor({r: 255, g: 10, b: 10});
