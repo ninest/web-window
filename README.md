@@ -5,7 +5,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 
-![Demo](./readme-assets/demo.png)
+![Demo]()
+<img alt="Demo" width="500" src="./readme-assets/demo.png" />
 
 ## 🌏 Options
 To open a website as a window, run 
