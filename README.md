@@ -49,6 +49,25 @@ To see a list of all options/commands, run
 deno run -A --unstable https://cdn.jsdelivr.net/gh/ninest/drink-if-exists/src/mod.ts --help
 ```
 
+## 👟 Running as an app
+### Mac
+Create a file `app.command` with the following:
+
+```
+#!/bin/sh
+
+deno run -A --unstable https://cdn.jsdelivr.net/gh/ninest/web-window/src/mod.ts open https://github.com/ninest
+
+```
+
+If you don't have priviledges to open the file, open Terminal and enter the command
+
+```
+chmod u+x app.command 
+```
+
+Now open `app.command` (double-click it in Finder)
+
 ## 🛠 Build setup
 Clone or fork the repository, then run 
 ```
@@ -58,3 +77,6 @@ deno run -A --unstable index.ts open https://github.com/ninest
 ## 😱 Issues and limitations
 - Non-resiable windows cannot be put into fullscreen
 - `WebView.setColor` doesn't seem to work on Mac OS. When this is fixed, `--color` can be added
+
+## 📜 License
+MIT
