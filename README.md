@@ -21,8 +21,10 @@ This app uses [deno_webview](https://github.com/eliassjogreen/deno_webview) and 
 To open a website as a window, run 
 
 ```
-deno run -A --unstable https://raw.githubusercontent.com/ninest/web-window/master/index.ts open https://github.com/ninest
+deno run -A --unstable https://cdn.jsdelivr.net/gh/ninest/web-window/src/mod.ts open https://github.com/ninest
 ```
+
+Note: jsdelivr is used over raw.githubusercontent.com because it is shorter and faster.
 
 There are a few more options:
 
@@ -35,16 +37,16 @@ There are a few more options:
 ### Examples
 ```
 # Open my github profile in a window with a title "Ninest"
-deno run -A --unstable https://raw.githubusercontent.com/ninest/web-window/master/index.ts open https://github.com/ninest --title "Ninest" 
+deno run -A --unstable https://cdn.jsdelivr.net/gh/ninest/web-window/src/mod.ts open https://github.com/ninest --title "Ninest" 
 
 # Open youtube in fullscreen with no title
-deno run -A --unstable https://raw.githubusercontent.com/ninest/web-window/master/index.ts open http://youtube.com/ --fullscreen
+deno run -A --unstable https://cdn.jsdelivr.net/gh/ninest/web-window/src/mod.ts open http://youtube.com/ --fullscreen
 ```
 (no need to download anything to run these examples)
 
 To see a list of all options/commands, run 
 ```
-deno run -A --unstable https://raw.githubusercontent.com/ninest/web-window/master/index.ts --help
+deno run -A --unstable https://cdn.jsdelivr.net/gh/ninest/drink-if-exists/src/mod.ts --help
 ```
 
 ## 🛠 Build setup
