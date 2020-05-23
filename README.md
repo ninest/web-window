@@ -6,6 +6,10 @@
   <img src="https://img.shields.io/badge/Made%20With-Deno-black?style=flat-square&" alt="Made with Deno" />
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="Make a PR" />
   <img src="https://img.shields.io/github/license/ninest/web-window?style=flat-square" alt="MIT" />
+
+  <a href="https://www.buymeacoffee.com/ninest">
+    <img src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square" alt="Buy Me A Coffee">
+  </a>
 </p>
 
 <p align="center"><img alt="Demo" width="500" src="./readme-assets/demo-new.png" /><p>
@@ -57,8 +61,8 @@ Create a file `app.command` with the following:
 #!/bin/sh
 
 deno run -A --unstable https://cdn.jsdelivr.net/gh/ninest/web-window/src/mod.ts open https://github.com/ninest
-
 ```
+(see the file `example-app.command`)
 
 If you don't have priviledges to open the file, open Terminal and enter the command
 
